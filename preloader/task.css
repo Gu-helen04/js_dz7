@@ -1,0 +1,29 @@
+body {
+  font-family: Arial;
+  
+}
+.item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item__currency {
+  width: 100%;
+}
+
+.item__code  {
+  
+  margin-right: 5px;
+  font-weight: bold;
+}
+.item__value {
+  margin-right: 5px;
+}
+
+.loader {
+  width: 100px;
+  display: none;
+}
+.loader_active {
+  display: block;
+}
